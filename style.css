@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+html{
+    background-color: #0a0a23;
+    color: #f1f1d0;
+}
+.navbar{
+    position: fixed;
+    width: 100vw;
+    top: 0;
+    background-color: rgb(70, 53, 53);
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+.nav-links li{
+    display: inline-block;
+    padding: 0.5rem;
+}
+header a{
+    text-decoration: none;
+    color:#f1f1d0
+}
+header a:hover{
+    color:#f1f1d0;
+    background-color: #0a0a23;
+}
+header a:active{
+    color:#0a0a23;
+    background-color: #f1e9d0;
+}
+
+#about{
+    color: #e85353;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+    background: linear-gradient(90deg, #0a0a23, #2a2a28, #0a0a23) ;
+}
+#study{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20vh;
+}
+#study table, th, td{
+    border: 1px solid #f1f1d0;
+    padding: 0.2rem;
+    text-align: center;
+}
+#projects{
+    margin-top: 2rem;
+    display: grid;
+    grid-template-columns: 2rem minmax(1fr, 2rem);
+}
+#skills{
+    margin-top: 2rem;
+    display: grid;
+    grid-template-columns: 2rem minmax(1fr, 2rem);
+}
+#contact{
+    background: linear-gradient(90deg,#e85353, #0a0a23);
+    width: 60vw;
+    margin: 0 auto;
+    margin-top: 2rem;
+}
+#contact h3{
+    text-align: center;
+}
+.contact{
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact form input, button{
+    display: block;
+}
