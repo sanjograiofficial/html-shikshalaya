@@ -4,8 +4,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Image Page</title>
+    <!-- internal CSS -->
+     <style>
+        img{
+            border: 10px solid red;
+            border-radius: 50%;
+        }
+        h1{
+            font-style: italic;
+        }
+     </style>
 </head>
 <body>
-    <img src="../assetws/cat.jpg" alt="This is an image">
+    <!-- inline CSS -->
+    <h1 style="color: red; font-size: 80px;">Gallery</h1>
+    <!-- relative image url -->
+    <img src="../assetws/cat.jpg" alt="This is an image" style="float: left;">
+    <!-- Absolute image url -->
+     <img src="https://images.pexels.com/photos/14912146/pexels-photo-14912146.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="cat" style="float: right;">
 </body>
 </html>
